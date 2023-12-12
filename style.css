@@ -17,18 +17,18 @@ body {
     padding: 25px 100px;
 }
 
-/* Homepage Header */
+/* Homepage Logo */
 .logo {
     display: block;
     margin: 10px auto;
 }
 
+/* Page Title */
 .section-title {
     text-align: center;
     width: fit-content;
     margin: 10px auto;
     border-bottom: 4px solid white;
-
 }
 
 .section-title:hover {
@@ -37,10 +37,22 @@ body {
     cursor: pointer;
 }
 
+.recipe-img {
+    display: block;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
 /* Recipe Links */
 .list {
     list-style: none;
     padding: 10px;
+}
+
+.list li {
+    margin: 5px;
 }
 
 .recipe-link {
@@ -56,7 +68,7 @@ body {
 }
 
 
-/* Style for ingredients */
+/* Style for description, ingredients, steps */
 /* Applies to recipe pages only */
 .ingredients {
     background-color: #EAE0D5;
