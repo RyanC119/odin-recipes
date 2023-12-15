@@ -45,27 +45,8 @@ body {
     margin-bottom: 10px;
 }
 
-/* Recipe Links */
-.list {
-    list-style: none;
-    padding: 10px;
-}
 
-.list li {
-    margin: 5px;
-}
 
-.recipe-link {
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-}
-
-.recipe-link:hover {
-    background-color: #22333B;
-    color: white;
-    font-weight: bold;
-}
 
 
 /* Style for description, ingredients, steps */
