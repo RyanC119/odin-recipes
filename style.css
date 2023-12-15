@@ -37,14 +37,33 @@ body {
     cursor: pointer;
 }
 
-.recipe-img {
-    display: block;
-    width: 300px;
-    height: auto;
-    margin: auto;
-    margin-bottom: 10px;
+/* Recipe Cards */
+div img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
 
+.recipe-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.recipe-grid {
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.recipe-card {
+    width: 300px;
+    height: 400px;
+}
+
+.recipe-img {
+    width: 300px;
+    height: 300px;
+}
 
 
 
